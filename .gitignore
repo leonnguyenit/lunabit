@@ -1,0 +1,9 @@
+/.idea/
+/resources/node_modules
+/resources/bower_components
+/resources/.sass-cache
+/resources/temp
+/resources/lunabit/*
+/cache/twig/*
+/cache/data/*
+/vendor/

@@ -1,0 +1,36 @@
+{
+    "name": "leonnguyenit/lunabit",
+    "description": "A simple cms by LeonNguyenIT",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leon Nguyen IT",
+            "email": "thanhluan12a14@gmail.com"
+        }
+    ],
+    "require": {
+        "php":">=7.0",
+        "slim/slim": "^3.8",
+        "twig/twig": "^2.3",
+        "illuminate/database": "^5.4",
+        "illuminate/events": "^5.4",
+        "illuminate/pagination": "^5.4",
+        "illuminate/translation": "^5.4",
+        "illuminate/validation": "^5.4"
+    },
+    "require-dev": {
+        "kint-php/kint": "^2.1",
+        "phpunit/phpunit": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Luna\\": [
+                "app/src",
+                "app/src/Libraries"
+            ]
+        },
+        "files": [
+            "app/src/Support/helpers.php"
+        ]
+    }
+}
